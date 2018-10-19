@@ -24,7 +24,7 @@ public class Fcfs {
 			
 			for(int i = 0; i < process.length; i++) {
 				
-				if(process[i][0] == 1) {
+				if(i == 0) {
 					timeTaken[i][0] = process[i][0];
 					timeTaken[i][1] = process[i][2];
 					timeTaken[i][2] = 0;
